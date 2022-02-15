@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nvidaLogo {
+  width: 150px;
+  height: 50px;
+}
+.head {
+  margin-left: 15px;
+  padding-top: 15px;
+}
+header {
+  display: flex;
+}
+#firstDiv {
+  margin-left: 100px;
+}
+.shop {
+  margin-left: 15px;
+  padding-top: 15px;
+}
+#secondDiv {
+  display: flex;
+  margin-right: 500px;
+}
+#thirdDiv {
+  display: flex;
+  margin-left: 10px;
+}
+
+#shopCart {
+  margin-top: 15px;
+  margin-left: 700px;
+}
+#profile {
+  width: 30px;
+  height: 30px;
+}
+.svg {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#greenShop {
+  text-align: center;
+  color: rgb(118, 185, 0);
+  font-size: 32px;
+
+  margin-top: 25px;
+}
+#slideshow {
+  width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+#slide-wrapper {
+  width: calc(100vw * 5);
+  position: relative;
+  clear: both;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+}
+.slide:nth-child(1) img {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+.slide:nth-child(2) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide:nth-child(3) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide:nth-child(4) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide:nth-child(5) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#slide-1:target ~ .slide-wrapper {
+  margin-left: 0vw;
+}
+#slide-2:target ~ .slide-wrapper {
+  margin-left: -100vw;
+}
+#slide-3:target ~ .slide-wrapper {
+  margin-left: -200vw;
+}
+#slide-4:target ~ .slide-wrapper {
+  margin-left: -300vw;
+}
+#slide-5:target ~ .slide-wrapper {
+  margin-left: -400vw;
+}
+.buttons {
+  position: absolute;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1000;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: whitesmoke;
+}
+#firstSquare {
+  width: 300px;
+  height: 330px;
+  border-radius: 1px;
+
+  border: 5px solid black;
+  margin-top: 50px;
+}
+#secondSquare {
+  width: 300px;
+  height: 330px;
+  border-radius: 1px;
+
+  border: 5px solid black;
+  margin-top: 50px;
+}
+#thirdSquare {
+  width: 300px;
+  height: 330px;
+  border-radius: 1px;
+
+  border: 5px solid black;
+  margin-top: 50px;
+}
+#fourthDiv {
+  width: 300px;
+  height: 330px;
+  border-radius: 1px;
+  border: 5px solid black;
+  margin-top: 50px;
+}
+#allFourSquares {
+  display: flex;
+  justify-content: space-evenly;
+}
+#laptop {
+  height: 200px;
+  width: 100%;
+}
+#secondBoxPic {
+  height: 200px;
+  width: 100%;
+}
+#thirdBoxPic {
+  height: 200px;
+  width: 100%;
+}
+#fourthBoxPic {
+  height: 200px;
+  width: 100%;
+}
+.greenText {
+  color: rgb(118, 185, 0);
+}
+#greenGaming {
+  color: rgb(118, 185, 0);
+  text-align: center;
+  font-size: 32px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.secondBoxes {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+}
+
+#secondBoxRow {
+  display: flex;
+  flex-direction: column;
+}
+#secondAllSquare {
+  display: flex;
+  justify-content: space-evenly;
+}
+#dyingLightTwo {
+  height: 170px;
+  width: 100%;
+}
+#godOfWar {
+  height: 170px;
+  width: 100%;
+}
+#valorant {
+  height: 170px;
+  width: 100%;
+}
+#allFourGames {
+  height: 170px;
+  width: 100%;
+}
+#latestNews {
+  text-align: center;
+}
+.eightBoxes {
+  width: 300px;
+  height: 400px;
+  border: 5px solid black;
+}
+#fourthRow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#news {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(118, 185, 0);
+  font-size: 35px;
+}
+.thirdAllSquares {
+  height: 170px;
+  width: 100%;
+}
+#footer {
+  background-color: black;
+  width: 100%;
+  height: 700px;
+  margin-top: 60px;
+}
+#information {
+  color: white;
+  font-size: 24px;
+}
+.whiteText {
+  color: white;
+  font-size: 24px;
+  margin-top: 40px;
+}
+#footerText {
+  display: flex;
+  justify-content: space-evenly;
+}
+.span {
+  color: rgb(118, 185, 0);
+  margin-top: 25px;
+}
+#firstText {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+#secondText {
+  display: flex;
+  flex-direction: column;
+}
+#thirdText {
+  display: flex;
+  flex-direction: column;
+}
+#contacts {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signUp {
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+#subscribe {
+  background-color: #76b900;
+  height: 50px;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 30px;
+  cursor: pointers;
+}
+#social {
+  font-size: 16px;
+  color: #747474;
+  display: inline-block;
+  margin-right: 20px;
+  height: 45px;
+  vertical-align: top;
+  padding-top: 12px;
+  margin-left: 170px;
+}
+#copyright {
+  background-color: white;
+  height: 200px;
+}
+#blackLogo {
+  height: 100px;
+  margin-left: 60px;
+}
+#copyrightText {
+  color: #666;
+  margin-left: 80px;
+  font-size: 16px;
+}
+#copyrightCorp {
+  font-size: 12px;
+  margin-left: 80px;
+}
+#usa {
+  margin-top: 28px;
+  margin-right: 70px;
+  color: #ccc;
+  font-size: 17px;
+}
+#flex {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
