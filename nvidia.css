@@ -385,3 +385,10 @@ header {
   background-color: white;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  width: fit-content;
+}
+@media (max-width: 820px) {
+  width: fit-content;
+}
+
